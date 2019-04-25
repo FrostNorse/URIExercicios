@@ -1,15 +1,15 @@
-numLine = int(input())
-pair = []
-impair = []
-for i in range(numLine):
-    digit = int(input())
-    if digit % 2 == 0:
-        pair.append(digit)
+linhas = int(input())
+par = []
+impar = []
+for i in range(linhas):
+    numero = int(input())
+    if numero % 2 == 0:
+        par.append(numero)
     else:
-        impair.append(digit)
-pair.sort()
-impair.sort()
-impair.reverse()
-pair.extend(impair)
-for i in pair:
+        impar.append(numero)
+par.sort()
+impar.sort()
+impar.reverse()
+par.extend(impar)
+for i in par:
     print(i)
