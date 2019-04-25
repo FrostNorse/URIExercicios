@@ -6,8 +6,8 @@ else:
     if num <= 1:
         print("Intervalo [0,25]")
     elif num <= 2:
-        print("Intervalo [25,50]")
+        print("Intervalo (25,50]")
     elif num <= 3:
-        print("Intervalo [50,75]")
+        print("Intervalo (50,75]")
     else:
-        print("Intervalo [75,100]")
+        print("Intervalo (75,100]")
