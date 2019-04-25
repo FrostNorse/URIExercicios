@@ -1,2 +1,2 @@
 # URIExercises
-All my solved codes from URI ONLINE JUGDE
+Todos os meus códigos resolvidos do URI ONLINE JUGDE
