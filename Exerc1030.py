@@ -9,5 +9,3 @@ while len(soldado) > 1:
         soldadoAtual %= len(soldado)
     soldado.remove(soldado[soldadoAtual])
 print(soldado[0])
-
-
