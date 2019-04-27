@@ -1,10 +1,8 @@
 teste = int(input())
 for i in range(teste):
     quantidadeSoldado, pulo = map(int, input().split())
-    soldado = []
+    soldado = list(range(1, quantidadeSoldado + 1))
     soldadoAtual = pulo-1
-    for j in range(quantidadeSoldado):
-        soldado.append(j+1)
     while len(soldado) > 1:
         soldado.remove(soldado[soldadoAtual])
         soldadoAtual += pulo-1
